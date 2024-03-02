@@ -1,0 +1,212 @@
+{
+  "id": "5548afe5-9f15-44db-9077-f4d89726d8bd",
+  "version": "2.0",
+  "name": "pdf_downlaod_testing",
+  "url": "https://ecourts.gov.in",
+  "tests": [{
+    "id": "64fd7300-f3ae-4053-98ff-6dfc2b79ef02",
+    "name": "test1",
+    "commands": [{
+      "id": "badc62af-35fc-451e-968c-b7c3263abb98",
+      "comment": "",
+      "command": "open",
+      "target": "/ecourts_home/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5d3b294e-4f5b-438c-b8ff-4f95f7a31c2a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1536x816",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0be206b0-9289-4841-ad5a-365c540ae2bd",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Supreme Court",
+      "targets": [
+        ["linkText=Supreme Court", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Supreme Court')]", "xpath:link"],
+        ["xpath=//div[@id='navbarResponsive']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://supremecourtofindia.nic.in/']", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Supreme Court')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7330",
+      "windowTimeout": 2000
+    }, {
+      "id": "fb9ee615-435e-4871-9099-2b9fa8e5f837",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7330}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6b910e79-c630-493f-9e70-0b21e90eccc8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vc_tta-container:nth-child(2) .vc_tta-tab:nth-child(2) > a",
+      "targets": [
+        ["css=.vc_tta-container:nth-child(2) .vc_tta-tab:nth-child(2) > a", "css:finder"],
+        ["xpath=//div[@id='row-content']/div/div/div[4]/div[2]/div/div/div[2]/div/div/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '#1697446384453-9aeef8cc-5f35')]", "xpath:href"],
+        ["xpath=//div[2]/div/div/ul/li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9bd6edd-7c05-4b32-878c-cef42cfdb353",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 697446384453-9aeef8cc-5f35 li:nth-child(1) > a",
+      "targets": [
+        ["css=#\\31 697446384453-9aeef8cc-5f35 li:nth-child(1) > a", "css:finder"],
+        ["xpath=//div[@id='1697446384453-9aeef8cc-5f35']/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.sci.gov.in/wp-admin/admin-ajax.php?action=get_judgements_pdf&diary_no=377892010&type=j&order_date=2024-03-01')]", "xpath:href"],
+        ["xpath=//div[2]/div[2]/div/ul/li/a", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win6049",
+      "windowTimeout": 2000
+    }, {
+      "id": "625597b3-533e-4f44-81aa-9def36fa76dc",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win6049}",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "e6b71a7a-568a-4cb3-bc39-e5d4de10ddb4",
+    "name": "test2",
+    "commands": [{
+      "id": "b71a058a-060a-4c28-b1ea-5440cd40c5fa",
+      "comment": "",
+      "command": "open",
+      "target": "/ecourts_home/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "835bbad5-2ca7-4594-b0fb-6385d5035804",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e5061c34-4faa-49ca-85bd-ec31df152e8c",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Supreme Court",
+      "targets": [
+        ["linkText=Supreme Court", "linkText"],
+        ["css=.nav-item:nth-child(4) > .nav-link", "css:finder"],
+        ["xpath=//a[contains(text(),'Supreme Court')]", "xpath:link"],
+        ["xpath=//div[@id='navbarResponsive']/ul/li[4]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://supremecourtofindia.nic.in/']", "xpath:href"],
+        ["xpath=//div[2]/div/ul/li[4]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Supreme Court')]", "xpath:innerText"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win8624",
+      "windowTimeout": 2000
+    }, {
+      "id": "73769fb1-ead2-4584-8210-20fd1aff87e3",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8a3a8545-99e1-4b61-b2dc-94c62183790d",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8624}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d1f92547-96b5-4fd8-af07-90a5882ca1ae",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,38.400001525878906)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ecbd6c19-b25c-4656-aa20-c9d5a76b9bbd",
+      "comment": "",
+      "command": "click",
+      "target": "css=.vc_tta-container:nth-child(2) .vc_tta-tab:nth-child(2) .vc_tta-title-text",
+      "targets": [
+        ["css=.vc_tta-container:nth-child(2) .vc_tta-tab:nth-child(2) .vc_tta-title-text", "css:finder"],
+        ["xpath=//div[@id='row-content']/div/div/div[4]/div[2]/div/div/div[2]/div/div/ul/li[2]/a/span", "xpath:idRelative"],
+        ["xpath=//div/ul/li[2]/a/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Judgments')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0aec9769-dedf-4cdd-8cc0-e5a6c889efa2",
+      "comment": "",
+      "command": "click",
+      "target": "css=#\\31 697446384453-9aeef8cc-5f35 li:nth-child(1) .fa",
+      "targets": [
+        ["css=#\\31 697446384453-9aeef8cc-5f35 li:nth-child(1) .fa", "css:finder"],
+        ["xpath=//div[@id='1697446384453-9aeef8cc-5f35']/div[2]/div/ul/li/a/i", "xpath:idRelative"],
+        ["xpath=//div[2]/div/ul/li/a/i", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7369",
+      "windowTimeout": 2000
+    }, {
+      "id": "2ea6916d-66ae-4dd7-b77b-9256219eced4",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7369}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40dae25a-dd26-4c3a-b0a6-199dd46fb5d7",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "eee30b11-b52c-4682-9b8a-4973ab3f5e18",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win8624}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e7b0f1af-d310-4ddd-8dcd-df7ce05ceaf1",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c8b1af1d-b456-4d10-b8a3-97a197b6a7c5",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a1cd7a33-a499-4cc0-b185-03567a98be38",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["64fd7300-f3ae-4053-98ff-6dfc2b79ef02"]
+  }],
+  "urls": ["https://ecourts.gov.in/"],
+  "plugins": []
+}
